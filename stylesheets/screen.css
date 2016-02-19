@@ -1,0 +1,1078 @@
+@import "reset.css";
+@import "container.css";
+@import "language-bar.css";
+@import "main.css";
+@import "sifr.css";
+@import "dropdown.css";
+
+
+#leftCol {
+	width: 700px;
+	float: left;
+	overflow: visible;
+	clear: left;
+}
+
+#leftCol div {
+	clear: both;
+}
+
+#leftCol div img {
+	float: left;
+}
+
+#rightCol {
+	width: 0px;
+	float: right;
+	overflow: visible;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: left;
+}
+
+
+#subscriptionsContainer {
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.subscriptions {
+	float: right;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.subscriptions a {
+	height: 41px;
+	padding: 3px 0 0 23px;
+	display: block;
+	float: left;
+}
+.subscriptions a.email {
+	background: transparent url(../images/content/subscribe-email.png) 0 0 no-repeat;
+}
+.subscriptions a.rss {
+	background: transparent url(../images/content/subscribe-rss.png) 0 0 no-repeat;
+	margin-left: 10px;
+}
+.subscriptions a.add {
+	background: transparent url(../images/content/subscribe-add.png) 0 0 no-repeat;
+	margin-left: 10px;
+}
+
+
+/* About the islands */
+.islands .letterBox {
+	width: 708px;
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	padding: 1px 6px 6px 1px;
+	margin-bottom: 10px;
+}
+.islands #leftCol {
+	width: 274px;
+}
+.islands #rightCol {
+	width: 436px;
+}
+.btn-more-info, .btn-best-package {
+	width: 255px;
+	background: transparent url(../images/content/btn-moreInfo-bot.png) 0 100% no-repeat;
+	padding-bottom: 10px;
+}
+
+.btn-apply-now {
+	width: 150px;
+	background: transparent url(../images/content/btn-moreInfo-bot-150w.png) 0 100% no-repeat;
+	padding-bottom: 6px;
+}
+
+.btn-more-info a, .btn-best-package a {
+	background: transparent url(../images/content/btn-moreInfo.png) 0 0 no-repeat;
+	font-size: 1.1em;
+	display: block;
+	padding: 1em 0.5em 0.5em;
+	color: #fff;
+	text-align: center;
+}
+
+.btn-apply-now a {
+	background: transparent url(../images/content/btn-moreInfo-150w.png) 0 0 no-repeat;
+	font-size: 1.1em;
+	display: block;
+	padding: 1em 0.5em 0.5em;
+	color: #fff;
+	text-align: center;
+}
+
+.btn-apply-now a {
+	padding: 1.2em 0.5em 0.8em;
+}
+.btn-best-package {
+	float: right;
+}
+
+/* Applicant video */
+#mainPanel {
+	width: 708px;
+	border: 1px solid #9ebcd9;
+	background: transparent url(../images/css/blue-trans-bg.png) 0 0;
+	float: left;
+	padding: 0px;
+	clear: left;
+	margin-bottom: 10px;
+}
+#videoContainer {
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	padding: 1px 6px 6px 1px;
+	width: 427px;
+}
+.applicantVideo #leftCol {
+	width: 434px;
+	padding: 8px;
+	
+}
+.applicantVideo #rightCol {
+	width: 257px;
+	border-left: 1px solid #9cc3dc;
+	padding: 8px 0 8px 0;
+}
+.applicantVideo dd {
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	clear: both;
+	overflow: hidden;
+}
+.applicantVideo dd, .applicantVideo dt, .applicantVideo p {
+	padding: 0 14px;
+}
+.applicantVideo dt.lineAbove {
+	border-top: 1px solid #9cc3dc;
+	padding-top: 0.5em;
+	clear: both;
+}
+.applicantVideo dt {
+	margin-bottom: 0.2em;
+}
+.applicantVideo label {
+	color: #30b3ce;
+}
+.applicantVideo input.text {
+	display: block;
+	margin-left: 0;
+	padding: 0.2em;
+	vertical-align: top;
+	width: 220px;
+}
+.applicantVideo button {
+	margin-left: 14px;
+	font-size: 1.3em;
+}
+
+/* jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ */
+div.rating {
+	cursor: pointer;
+	margin: 0 0 1em 0;
+	clear: both;
+	display: block;
+	overflow: hidden;
+}
+div.cancel,
+div.star{
+	float: left;
+	width: 17px;
+	height: 15px;
+	text-indent: -999em;
+	cursor: pointer;
+	display: block;
+	background: transparent;
+	overflow: hidden;
+}
+div.cancel a {
+	background: url(../images/content/delete.png) no-repeat 0 -16px;
+}
+div.star, div.star a {
+	background: url(../images/content/star.png) no-repeat 0 0px;
+}
+div.cancel a, div.star a {
+	display: block;
+	width: 16px;
+	height: 100%;
+	background-position: 0 0px;
+}
+div.star_on a {
+	background-position: 0 -16px!important;
+}
+div.star_hover a, div.star_live a:hover {
+	background-position: 0 -32px;
+}
+/* Read Only CSS */
+div.star_readonly a, div.star_readonly a:hover {
+	cursor: default !important;
+}
+/* Partial Star CSS */
+div.star { 
+	background: transparent!important;
+	overflow: hidden!important;
+}
+/* END jQuery.Rating Plugin CSS */
+
+#bottomLinks {
+	width: 710px;
+	clear: left;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+#bottomLinks #prev, #bottomLinks #next, #bottomLinks #browse {
+	border: 1px solid #9ebcd9;
+	background: transparent url(../images/css/blue-trans-bg.png) 0 0;
+	padding: 8px;
+	float: left;
+	width: 136px;
+}	
+#bottomLinks #browse {
+	width: 400px;
+	margin: 0 10px;
+	text-align: center;
+}
+#bottomLinks #next {
+	width: 100px;
+}
+#bottomLinks #prev p, #bottomLinks #next p, #bottomLinks #browse p {
+	margin: 0;
+	font-weight: bold;
+	padding: 0;
+	line-height: 42px;
+}
+#bottomLinks #prev p img, #bottomLinks #next p img {
+	display: block;
+}
+#bottomLinks #prev p img {
+	float: left;
+}
+#bottomLinks #next p img {
+	float: right;
+}
+#prev a.prev {
+	background: transparent url(../images/content/arrow-left.png) 0 50% no-repeat;
+	padding: 0 0 0 10px;
+	margin-left: 10px;
+	float: right;
+}
+#next a.next {
+	background: transparent url(../images/content/arrow-right.png) 100% 50% no-repeat;
+	padding: 0 10px 0 0;
+	float: left;
+	margin-right: 10px;
+}
+#browse a.browse {
+	padding: 0 20px;
+	background: transparent url(../images/css/paginationDivider.gif) 100% 50% no-repeat;
+}
+#browse a.search {
+	padding: 0 20px;
+}
+dd.moreButton {
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+/* Apply now */
+
+
+#applyForm, #emailForm {
+	width: 715px;
+	float: left;
+	overflow: visible;
+	clear: left;
+}
+
+#applyForm form, #emailForm form {
+	width: 715px;
+	float: left;
+	overflow: visible;
+	clear: left;
+	background: transparent url(../images/css/formBg.png) 0 100% no-repeat;
+	margin: 5px 0 10px;
+}
+
+#applyForm form fieldset, #emailForm form fieldset {
+	background: transparent url(../images/css/formBgTop.png) 0 0 no-repeat;
+	width: 675px;
+	padding: 10px 20px;
+	position: relative;
+	top: -5px;
+}
+
+#applyForm form p, #emailForm form p {
+	color: #3E596F;
+}
+#applyForm form .errorMessage, #emailForm form .errorMessage {
+	padding: 10px;
+	background: #ffc;
+	border: 1px solid #ffcc66;
+}
+#applyForm form .errorMessage, #applyForm form .errorMessage p, 
+#emailForm form .errorMessage, #emailForm form .errorMessage p {
+	color: #CC0000;
+}
+#applyForm li, #emailForm li {
+	display: block;
+	overflow: hidden;	
+	padding-bottom: 0.75em;
+	padding-top: 0.75em;
+	border-top: 1px solid #8fd9f8;
+}
+
+#applyForm li label, #emailForm li label {
+	display: block;
+	float: left;
+	margin-right: 1em;
+	padding: 0.2em 0 0.2em 10px;
+	vertical-align: top;
+	min-width: 160px;
+	/*cursor: pointer;*/
+	color: #3E596F;
+}
+
+#applyForm li label em, #emailForm li label em {
+	color: #fff;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#applyForm textarea, 
+#applyForm select, 
+#applyForm input.ui-text, 
+#applyForm input.file, 
+#emailForm textarea, 
+#emailForm select, 
+#emailForm input.ui-text, 
+#emailForm input.file {
+	display: block;
+	float: left;
+	margin-left: 0;
+	padding: 0.2em;
+	vertical-align: top;
+	width: 270px;
+	font: 9pt arial, helvetica, sans-serif;
+	color: #3E596F;
+}
+#applyForm textarea:focus,  
+#applyForm input.ui-text:focus, 
+#applyForm input.file:focus, 
+#emailForm textarea:focus,  
+#emailForm input.ui-text:focus, 
+#emailForm input.file:focus {
+	background: #ffc;
+}
+
+
+#applyForm .options textarea {
+	margin-top: 5px;
+	clear: both !important;
+	height: 60px;
+	float: none;
+}
+
+#applyForm input.file {
+	padding-bottom: 0.25em;
+	padding-top: 0.25em;
+	margin-right: 10px;
+}
+
+.filestyleRePosition
+{
+	padding-bottom: 0.25em;
+	padding-top: 0.2em;
+}
+
+#applyForm select, #emailForm select {
+	width: 280px;
+}
+
+#applyForm .options, #emailForm .options {
+	padding-left: 185px;
+	padding-top: 8px;
+	clear: both;
+}
+
+#applyForm .options label,
+#applyForm .options input, 
+#emailForm .options label,
+#emailForm .options input {
+	display: inline;
+	float: none;
+	width: auto;
+	margin: auto;
+	padding: 0;
+}
+
+#applyForm .options label, #emailForm .options label {
+	padding-right: 10px;
+}
+
+#applyForm button#submit { 
+	padding-bottom: 1em;
+	border-bottom: none;
+	background: transparent url(../images/css/btn-submit.gif) 0 0 no-repeat;
+	height: 25px;
+	width: 80px;
+	cursor: pointer;
+	border: 0;
+	text-indent: -9999px;
+	outline: none;
+	display: block;
+}
+
+#applyForm .note, #applyForm .error, #emailForm .note, #emailForm .error {
+	float: right;
+	clear: right;
+	display: block;
+	width: 180px;
+	font-size: 0.9em;
+}
+#applyForm .error, #emailForm .error {
+	color: #CC0000;
+	display: none;
+}
+#applyForm.js li .note, #emailForm.js li .note {
+	display: none;
+}
+#applyForm li.focused .note, #emailForm li.focused .note {
+	display: block;
+}
+
+
+/* Get email updates and win */
+
+#emailForm button#submit { 
+	border-bottom: none;
+	background: transparent;
+	font: inherit;
+	color: #fff;
+	background: transparent url(../images/css/form-btn-bg.gif) 0 0 repeat-x;
+	height: 25px;
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	display: block;
+	margin: 0;
+	float: left;
+}
+
+#emailForm .form-btn {
+	padding-left: 5px;
+	height: 25px;
+	background: transparent url(../images/css/form-btn-left.gif) 0 0 no-repeat;
+}
+#emailForm .form-btn-right {
+	height: 25px;
+	width: 5px;
+	float: left;
+	background: transparent url(../images/css/form-btn-right.gif) 0 0 no-repeat;
+}
+
+
+/* send to a friend */
+
+#emailForm form h4 {
+
+	padding: 0.2em 0 0.2em 10px;
+	color: #3E596F;
+}
+
+#emailForm form h4 a.friend_expcoll {
+	font-weight: normal;
+}
+
+#emailForm #send_to_another {
+	display: none;
+	cursor: pointer;	
+}
+
+
+/* Getting there */
+.gettingThere #leftCol {
+	width: 440px;
+}
+.gettingThere #rightCol {
+	width: 268px;
+}
+#images {
+	clear: left;
+	width: 715px;
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+#images img {
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	padding: 1px 6px 6px 1px;
+	float: left;
+	margin-right: 5px;
+}
+#images img.last {
+	margin-right: 0;
+}
+
+
+/* How to apply */
+.apply #leftCol {
+	width: 345px;
+	float: left;
+}
+.apply #rightCol {
+	width: 345px;
+	float: right;
+}
+
+.apply img,
+.apply .btn-apply-now {
+	margin: 0 0 20px 20px;
+	float: right;
+}
+
+.apply .float-right {
+	width: 370px;
+	float: right;
+}
+
+.apply
+.stepOne, .stepTwo {
+	background: transparent url(../images/content/apply-step-bot.png) 0 100% no-repeat;
+	width: 348px;
+	padding: 0 0 15px 0;
+	margin-bottom: 1em;
+}
+.stepOne h2, .stepTwo h2 {
+	text-indent: -9999px;
+	height: 47px;
+	position: relative;
+	top: -5px;
+	margin: 0;
+}
+.stepOne p, .stepTwo p {
+	padding: 0 20px;
+}
+.stepOne h2 {
+	background: transparent url(../images/content/apply-step-1-top.png) 0 0 no-repeat;
+}
+.stepTwo h2 {
+	background: transparent url(../images/content/apply-step-2-top.png) 0 0 no-repeat;
+}
+.apply #rightCol img {
+	margin: 0 0 1em 0;
+}
+
+/* Key dates */
+#keyDates li {
+	color: #30a8c1;
+	padding: 10px;
+	border: 1px solid #30a8c1;
+	background: transparent url(../images/css/blue-trans-bg.png) 0 0;
+	margin-bottom: 1em;
+}
+
+
+/* Maps */
+.maps #leftCol {
+	width: 345px;
+	float: left;
+	overflow: hidden;
+}
+.maps #rightCol {
+	width: 345px;
+	float: right;
+}
+.maps #leftCol .left, .maps #leftCol .right {
+	width: 162px;
+}
+.maps #leftCol .left {
+	float: left;
+}
+.maps #leftCol .right {
+	float: right;
+}
+#googleMap {
+	width: 350px;
+	height: 270px;
+	overflow: hidden;
+}
+#mapWrapper {
+	width: 350px;
+	height: 270px;
+	padding: 1px 6px 6px 1px;
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+}
+
+/* News */
+
+#newsList {
+	width: 710px;
+	clear: left;
+	margin-bottom: 10px;
+	overflow: hidden;
+	border-top: 1px solid #bad8e7;
+}
+#newsList li {
+	font-size: 1em;
+	border-bottom: 1px solid #bad8e7;
+	padding: 1em 0 0 0;
+}
+#newsList li img {
+	margin-bottom: 10px;
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	padding: 1px 6px 6px 1px;
+	float: left;	
+}
+#paginationBlock {
+	width: 710px;
+	text-transform: uppercase;
+	padding: 8px 0;
+	clear: left;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+#paginationBlock p {
+	float: left;
+	font-size: 1.1em;
+	margin: 0;
+	color: #09b7db;
+}
+#paginationBlock p.paginationButtons {
+	float: right;
+	font-weight: bold;
+	text-transform: none;
+	font-size: 1em;
+	margin: 0;
+}
+em.first {
+	padding-left: 1em;
+}
+.paginationButtons a.prev {
+	background: transparent url(../images/content/arrow-left.png) 0 50% no-repeat;
+	padding: 0 5px 0 10px;
+	border-right: 1px solid #9EBCD9;
+}
+.paginationButtons a.next {
+	background: transparent url(../images/content/arrow-right.png) 100% 50% no-repeat;
+	padding: 0 10px 0 5px;
+}
+
+/* Photos */
+#thumbnails li {
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin: 1px;
+	display: block;
+	background: #d7e9f2;
+	cursor: pointer;
+	overflow: hidden;
+}
+#thumbnails li img {
+	width: 48px;
+	height: 48px;
+	display: block;
+}
+#thumbnails {
+	width: 204px;
+	margin: 0 0 0 -2px;
+}
+.galleria_wrapper {
+	width: 488px;
+	height: 300px;
+	padding: 1px 6px 6px 1px;
+	margin-bottom: 8px;
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	display: block;
+}
+.caption {
+	font-size: 0.9em;
+	display: block;
+}
+
+/* About the job */
+
+.default #leftCol img, 
+.about-job #leftCol img,
+.islands #leftCol img {
+	margin-bottom: 10px;
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	padding: 1px 6px 6px 1px;	
+}
+
+/* Video applications */
+.row, #sortButtons, #paginationBlock {
+	width: 710px;
+	clear: left;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.candidate {
+	width: 120px;
+	border: 1px solid #9ebcd9;
+	background: transparent url(../images/css/blue-trans-bg.png) 0 0;
+	float: left;
+	margin-right: 5px;
+	padding: 8px;
+	max-height: 28em;
+}
+.candidate.last {
+	margin-right: 0;
+}
+.candidate .headShot {
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	padding: 1px 6px 6px 1px;
+	margin-bottom: 0.5em;	
+}
+.candidate dl {
+	font-size: 0.85em;
+	overflow: hidden;
+}
+.candidate dd {
+	margin-bottom: 0.5em;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.candidate .rating {
+	width: 77px;
+	height: 13px;
+	background: transparent url(../images/css/ratingBg.png) 0 0 no-repeat;
+}
+.candidate div.rating {
+	cursor: default;
+}
+#sortButtons, #paginationBlock {
+	border: 1px solid #9ebcd9;
+	background: transparent url(../images/css/blue-trans-bg.png) 0 0;
+	width: 692px;
+	text-transform: uppercase;
+	padding: 8px;
+}
+#sortButtons h2 {
+	float: left;
+	font-size: 0.85em;
+	font-weight: normal;
+	margin: 0 5px 0 0;
+	padding: 0.2em 0;
+}
+#sortButtons ul {
+	overflow: hidden;
+	float: left;
+	margin: 0;
+}
+#sortButtons ul li {
+	float: left;
+	font-size: 0.85em;
+	padding: 0;
+	background: transparent url(../images/css/searchDivider.gif) 100% 50% no-repeat;
+}
+#sortButtons ul li.last {
+	background: none;
+}
+#sortButtons ul li a { 
+	padding: 0.2em 0.5em;
+	display: block;
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+}
+#sortButtons ul li.selected {
+	background: none;
+}
+#sortButtons ul li.selected a,
+#sortButtons ul li a:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #558ebe;
+}
+#sortButtons p {
+	float: right;
+	margin: 0;
+	font-weight: bold;
+	text-transform: none;
+}
+
+#view_by_country {
+	margin-top: -2px;
+	margin-left: 5px;
+	float: left;
+}
+
+#by_country input,
+#by_country label {
+	display: inline;
+}
+#by_country select.gui_select {
+	width: 160px;
+}
+
+#sortButtons li#country_label {
+	background: none;
+	float: left;
+	font-size: 0.85em;
+	padding: 0.2em 0.5em;
+	margin-left: 5px;
+	display: block;
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+	text-transform: uppercase;
+	color: #2a72ae;
+}
+
+#sortButtons li#country_label.selected {
+	color: #fff;
+	background-color: #558ebe;
+}
+
+#paginationBlock p, #paginationBlock ul.pagination li {
+	float: left;
+	font-size: 0.85em;
+	margin: 0;
+	color: #09b7db;
+}
+#paginationBlock ul {
+	overflow: hidden;
+	float: left;
+	margin: 0;
+}
+#paginationBlock ul.pagination li {
+	padding: 0 2px;
+}
+#paginationBlock ul.pagination li a {
+	padding: 0 3px;
+}
+#paginationBlock ul.pagination li a:hover {
+	color: #000;
+	background: #d9eaf6;
+}
+#paginationBlock ul.pagination li a.selected {
+	color: #fff;
+	background: #558ebe;
+}
+p.paginationButtons {
+	float: right;
+	font-weight: bold;
+	text-transform: none;
+	font-size: 1em;
+	margin: -2px 0 0 0;
+}
+em.first {
+	padding-left: 1em;
+}
+.paginationButtons a.prev {
+	background: transparent url(../images/content/arrow-left.png) 0 50% no-repeat;
+	padding: 0 5px 0 10px;
+	border-right: 1px solid #9EBCD9;
+}
+.paginationButtons a.next {
+	background: transparent url(../images/content/arrow-right.png) 100% 50% no-repeat;
+	padding: 0 10px 0 5px;
+}
+
+p.prevNext {
+	border: 1px solid #9ebcd9;
+	background: transparent url(../images/css/blue-trans-bg.png) 0 0;
+	padding: 8px;
+}
+
+.maps p.prevNext {
+	float: left;
+}
+
+.gettingThere p.prevNext {
+	margin-top: 10px;
+}
+
+
+
+/* Videos */
+.videos #leftCol a {
+	margin: 1px 0 10px 0;
+	display: block;	
+	width: 200px;
+	height: 94px;
+	text-indent: -9999px;
+}
+.videos a#videoButton1 {
+	background-image: url(../images/content/btn-islandVid-1.jpg);
+}
+.videos a#videoButton2 {
+	background-image: url(../images/content/btn-islandVid-2.jpg);
+}
+.videos a#videoButton3 {
+	background-image: url(../images/content/btn-islandVid-placeholder.jpg);
+}
+.videos a:hover {
+	background-position: 0 -103px;
+}
+.videos a.selected {
+	background-position: 0 -206px;
+}
+
+.videos #videoContainer {
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	padding: 1px 6px 6px 1px;
+	width: 490px;
+	margin-bottom: 10px;
+}
+/* Working there */
+.letterBox {
+	width: 708px;
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	padding: 1px 6px 6px 1px;
+	clear: left;
+	margin-bottom: 10px;
+}
+.row {
+	width: 710px;
+}
+#style-switch {
+	display: none;
+}
+
+
+.interviewee {
+	width: 120px;
+	border: 1px solid #9ebcd9;
+	background: transparent url(../images/css/blue-trans-bg.png) 0 0;
+	float: left;
+	margin-right: 5px;
+	padding: 8px;
+	max-height: 28em;
+}
+
+.interviewee .headShot {
+	width: 81px;
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	padding: 1px 6px 6px 1px;
+	margin-bottom: 0.5em;	
+}
+
+.interviewee .headShot a {
+	display: block;	
+	width: 81px;
+	height: 54px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+}
+.interviewee .headShot a:hover {
+	background-position: 0 -54px;
+}
+.interviewee .headShot a.warren {
+	background-image: url(../images/content/interviewee-warren.jpg);
+}
+.interviewee .headShot a.masako {
+	background-image: url(../images/content/interviewee-masako.jpg);
+}
+.interviewee .headShot a.jason {
+	background-image: url(../images/content/interviewee-jason.jpg);
+}
+.interviewee .headShot a.kyall {
+	background-image: url(../images/content/interviewee-kyall.jpg);
+}
+.interviewee .headShot a.greg {
+	background-image: url(../images/content/interviewee-greg.jpg);
+}
+
+.interviewee.last {
+	margin-right: 0;
+}
+.interviewee .headShot {
+	background: transparent url(../images/css/imageBackground.png) 100% 100% no-repeat;
+	padding: 1px 6px 6px 1px;
+	margin-bottom: 0.5em;	
+}
+.interviewee dl {
+	font-size: 0.85em;
+	overflow: hidden;
+}
+.interviewee dd {
+	margin-bottom: 0.5em;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+
+
+/* Contact Us */
+
+.contactUs ul, .contactUs ol
+{
+	clear: left;
+}
+.contactUs li
+{
+	display: block;
+
+	float: left;
+	height: 4.5em;
+	width: 33%;
+}
+
+
+.clear-both
+{
+	clear: both;
+}
+
+/* Blog */
+.blog #leftCol {
+	width: 490px;	
+}
+.blog #rightCol {
+	width: 200px;
+}
+
+#relatedVids {
+	overflow: hidden;
+	margin-top: 1em;
+}
+#relatedVids li {
+	float: left;
+	overflow: hidden;
+	width: 42px;
+	height: 27px;
+	margin-right: 1px;
+}
+#relatedVids li.last {
+	margin-right: 0;
+}
+#relatedVids a {
+	border: 1px solid #fff;
+	width: 40px;
+	height: 25px;
+	display: block;
+}
+#relatedVids a:hover {
+	border: 1px solid #045699;
+}
+
+
+/**
+ * Mimimum requirements
+ */
+ 
+p.minimumRequirements {
+	border: 1px solid #9ebcd9;
+	background-color: #eeffc4;
+	padding: 8px;
+}
+
+/**
+ * Sitemap
+ */
+.sitemap ol li {
+	margin-bottom: 0.5em;
+}
+.sitemap li li {
+	padding-left: 15px;
+}
+
+

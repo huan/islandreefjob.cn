@@ -1,0 +1,373 @@
+
+/* '* html' only revealed to IE 6 and below */
+
+
+
+
+/* Lists */
+
+ol
+{
+	padding-left: 25px;
+}
+
+
+
+
+
+/* hide from IE 5 Mac */
+@media screen {
+	
+	/* fix images from forcing scroll bar to appear (1px for each min-width div) */
+	* html #language-bar img
+	{
+		margin-bottom: -3px;
+	}
+}
+
+
+
+
+
+/* hide from IE 5 Mac */
+@media screen {
+	
+	
+	
+	
+	/* Fix for IE PNG files */
+	
+	* html div,
+	* html img
+	{
+	/*	behavior: url( javascript/iepngfix.htc );*/
+	}
+	
+	
+	
+	
+	
+	/* Fix for IE 6 and below on Windows fixed position and min/max widths */
+	
+	* html, 
+	* html body
+	{ 
+		height: 100%;
+		margin: 0;
+		padding: 0; 
+	}
+	
+	
+	/* fix flash_intro to top */
+	* html #flash_intro
+	{
+		position: absolute;
+		top: expression( ( 0 + ( ignoreme4 = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+	}
+	
+	
+	* html .min-width
+	{
+		width: expression( ( document.body.clientWidth > 1300 ) ? '1300' : ( document.body.clientWidth > 970 ) ? '100%' : '970px' );
+	}
+	
+	
+	/* fix animated title to bottom and set min/max width*/
+	* html #animated_title
+	{
+		position: absolute;	
+		top: expression( ( 0 - document.getElementById( 'animated_title' ).offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreme1 = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+		width: expression( ( document.body.clientWidth > 1300 ) ? '1300' : ( document.body.clientWidth > 970 ) ? '100%' : '970px' );
+		margin-bottom: -151px;
+	}
+	
+	
+	/* fix language bar to bottom */
+	* html #language-bar
+	{
+		position: absolute;	
+		top: expression( ( 0 - document.getElementById( 'language-bar' ).offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreme2 = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+		left: expression( ( document.body.clientWidth > 1300 ) ? Math.floor( document.body.clientWidth - 1300 ) / 2 : '0' );
+		margin-bottom: -27px;
+	}
+	
+	
+	/* fix background to top and set min/max width */
+	* html #background-wrap
+	{
+		position: absolute;	
+		top: expression( ( 0 + ( ignoreme3 = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+		left: expression( ( document.body.clientWidth > 1300 ) ? Math.floor( document.body.clientWidth - 1300 ) / 2 : '0' );
+	}
+	
+	
+	/* fix background height */
+	* html #background
+	{
+		height: expression( ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + 'px' );
+	}
+	
+	
+}
+
+.candidate {
+	padding-left: 6px;
+	padding-right: 4px;
+	margin-right: 4px;
+}
+
+#mainPanel,
+#bottomLinks #prev, #bottomLinks #next, #bottomLinks #browse,
+.candidate,
+#sortButtons, #paginationBlock,
+#keyDates li
+{
+	background: transparent url( '../../images/css/blue-trans-bg.gif' ) 0 0;
+}
+
+
+
+#wrapper
+{
+	height: 100%;
+}
+
+
+
+
+/* menu */
+
+#menu
+{
+	background: none;
+}
+	
+	#menu ol li ol
+	{
+		background: url('../../images/dropdown/dd-menu-bg.gif') 0 100% no-repeat;
+	}
+	
+	#menu ol li:hover a,
+	#menu ol li.hover a
+	{
+/* 		background: url('../../images/dropdown/menu-item-over.gif') 0 0 repeat-x; */
+	}
+	
+	#menu ol li ol li.first-child a
+	{
+		background: none;	
+	}
+
+	#menu ol li a
+	{
+		background-image: url(../../images/dropdown/menu-generic.gif);
+	}
+	/* About the Job & Islands*/
+	#menu ol li#menu-item-about-the-job a,
+	#menu ol li#menu-item-about-the-islands a
+	{
+		background-image: url(../../images/dropdown/menu-dropdown.gif);
+	}
+
+/*
+	#menu ol li:hover a,
+	#menu ol li.hover a,
+	#menu ol li.selected a {
+		background-image: none;
+		background: #6cb7db;
+	}
+*/
+	
+	/* About the Job */
+	#menu.language-en ol li#menu-item-about-the-job a
+	{
+		background-image: url('../../images/dropdown/menu-about-the-job.gif');
+	}
+	
+	/* Apply Now */
+	#menu.language-en ol li#menu-item-apply-now a
+	{
+		background-image: url('../../images/dropdown/menu-apply-now.gif');
+	}
+	
+	/* News */
+	#menu.language-en ol li#menu-item-news a
+	{
+		background-image: url('../../images/dropdown/menu-news.gif');
+	}
+	
+	/* About the Islands */
+	#menu.language-en ol li#menu-item-about-the-islands a
+	{
+		background-image: url('../../images/dropdown/menu-about-the-islands.gif');
+	}
+
+
+
+
+
+
+
+/* gif alternatives */
+#content-bg {
+	background-image: none;
+	background: #E3EFF1;	
+}
+
+#content-top
+{
+	background: url( '../../images/css/content-top.gif' ) no-repeat;
+}
+
+#content-left
+{
+	background: url( '../../images/css/content-left.gif' ) repeat-y;
+}
+
+#content-right
+{
+	background: url( '../../images/css/content-right.gif' ) repeat-y right;
+}
+
+#content-bottom
+{
+	background: url( '../../images/css/content-bottom.gif' ) no-repeat;
+}
+
+.candidate .rating {
+	background: transparent url( '../../images/css/ratingBg.gif' ) 0 0 no-repeat;
+}
+
+
+
+/* jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ */
+
+div.cancel a {
+	background: url( '../../images/content/delete_alt.gif' ) no-repeat 0px -16px;
+}
+div.star,div.star a {
+	background: url( '../../images/content/star_alt.gif' ) no-repeat 0px 0px;
+}
+div.cancel a, div.star a {
+	background-position: 0px 0px;
+}
+div.star_on a {
+	background-position: 0px -16px!important;
+}
+div.star_hover a,div.star_live a:hover {
+	background-position: 0px -32px;
+}
+
+/* END jQuery.Rating Plugin CSS */
+
+
+
+
+
+
+/* */
+
+#applyForm form {
+	background-image: url('../../images/css/formBg.gif');
+}
+
+#applyForm form fieldset {
+	background-image: url('../../images/css/formBgTop.gif');
+}
+
+.islands .letterBox,
+#videoContainer,
+#images img,
+#mapWrapper,
+#newsList li img,
+.galleria_wrapper,
+.about-job #leftCol img,
+.candidate .headShot,
+.videos #videoContainer,
+.letterBox  {
+	background-image: url( '../../images/css/imageBackground.gif' );
+}
+
+#alt-logo
+{
+	background: transparent url( '../../images/flash-alternate/logo-horiz.gif' ) 0 0 no-repeat;
+}
+
+#alt-title
+{
+	background: transparent url( '../../images/flash-alternate/title-wide.gif' ) 0 0 no-repeat;
+}
+
+#applyForm li label,
+#emailForm li label
+{
+	width: 160px;
+}
+
+
+#emailForm li div.filestyleIe6,
+.filestyleIe6
+{
+	background-position: left;
+	/*padding-top: 0.5em;*/
+}
+
+.filestyleRePosition
+{
+	padding-bottom: 0em;
+	padding-top: 0em;
+	margin-top: 0em;
+}
+
+/* z stacking */
+	
+
+#header
+{
+	z-index: 200;
+}
+
+#main
+{
+	z-index: 20;
+}
+
+.flash_intro, #flash_intro
+{
+	z-index: 1000;
+}
+
+#animated_title_wrap
+{
+	z-index: 40;
+}
+
+#animated_title
+{
+	z-index: 50;
+}
+
+#background-wrap
+{
+	z-index: 2;
+}
+
+#background-wrap #background-sky-gradient
+{
+	z-index: 3;
+}
+
+#background-wrap #background-sky-gradient #background
+{
+	z-index: 4;
+}
+
+#animated_title_wrap.flash-title-hide
+{
+	z-index: 1100;
+}
+
+/* */
+.applicantVideo #leftCol {
+	padding: 8px 0px 8px 8px;
+}

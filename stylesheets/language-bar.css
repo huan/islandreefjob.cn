@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#language-bar {
+	width: 100%;
+	min-width: 960px;
+/* 	max-width: 1300px; */
+	margin: 0 auto;
+	height: 27px;
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	z-index: 1030;
+	font-size: 1em;
+	color: #838893;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#language-bar .min-width
+{
+/* 	max-width: 1300px; */
+	position: relative;
+	background: url( '../images/css/language-bar-bg.gif' ) repeat-x;
+	height: 27px;
+}
+
+/**
+ * Language bar icons
+ */
+ 
+#language-bar .left a {
+	height: 27px;
+	width: 18px;
+	display: block;
+	text-indent: -9999px;
+	outline: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.engIcon {
+	background: transparent url(../images/language-bar/language-icon-eng.gif) 0 0 no-repeat;
+}
+.japIcon {
+	background: transparent url(../images/language-bar/language-icon-jap.gif) 0 0 no-repeat;
+}
+.korIcon {
+	background: transparent url(../images/language-bar/language-icon-kor.gif) 0 0 no-repeat;
+}
+.simpChIcon {
+	background: transparent url(../images/language-bar/language-icon-chi-s.gif) 0 0 no-repeat;
+}
+.tradChIcon {
+	background: transparent url(../images/language-bar/language-icon-chi-t.gif) 0 0 no-repeat;
+}
+.tradChIconHK {
+	background: transparent url(../images/language-bar/language-icon-chi-t-hk.gif) 0 0 no-repeat;
+}
+.gerIcon {
+	background: transparent url(../images/language-bar/language-icon-ger.gif) 0 0 no-repeat;
+}
+
+
+#language-bar a {
+	color: #838893;
+	text-decoration: none;
+}
+#language-bar a:hover {
+	text-decoration: underline;
+}
+#language-bar .left, #language-bar .right {
+	position: absolute;
+	top: 0;
+}
+#language-bar .left {
+	left: 10px;
+}
+#language-bar .right {
+	right: 10px;
+}
+#language-bar .right a {
+	background: transparent url(../images/language-bar/tourism-qld-logo.gif) 0 0 no-repeat;
+	width: 93px;
+	height: 27px;
+	display: block;
+	text-indent: -9999px;
+	outline: none;
+}
+#language-bar .centre {
+	width: 620px;
+	padding-top: 5px;
+	text-align: center;
+	margin: 0 auto;
+}
+#language-bar .centre a {
+	padding: 0 0.5em;
+}
+

@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+	
+#menu {
+	width: 750px;
+	height: 53px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 600;
+	overflow: visible;
+	background: url(../images/dropdown/menu-bg.png) 0 0 no-repeat;
+}
+	
+	
+#menu ol {
+	margin: 0 auto;
+ 	text-align: center;
+	overflow: visible;
+	width: 648px;	
+}
+
+#menu ol li {
+	position: relative;
+ 	display: inline;
+ 	line-height: 53px;
+ 	margin: 0;
+	float: left;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	background: none;
+	cursor: pointer;
+}
+
+
+#menu ol li ol {
+ 	display: none;
+	position: absolute;
+	left: 0;
+	top: 53px;
+	width: 170px;
+	background: url(../images/dropdown/dd-menu-bg.png) 0 100% no-repeat;
+/* 	background-position: center; */
+	padding: 14px 0 16px 0;
+	margin: 0 0 0 -4px;	
+}
+
+#menu ol li ol li {
+	display: block;
+	font-size: .9em;
+	line-height: 1.3em;
+	text-transform: none;
+	text-align: left;
+	background: none;
+}
+
+
+#menu ol li a:link,
+#menu ol li a:visited {
+	color: #fff;
+ 	padding: 0;
+	font-weight: bold;
+	display: block;
+	width: 162px;
+	height: 53px;
+	overflow: hidden;
+}
+
+#menu ol li ol li a:link,
+#menu ol li ol li a:visited {
+	color: #00829b;
+ 	padding: 5px 20px 5px 15px;
+	display: block;	
+	font-weight: normal;
+	width: 130px;
+	height: auto;
+	background:url(../images/dropdown/dd-separator.gif) -1px 0 no-repeat;	
+}
+
+#menu ol li ol li:first-child a {
+	background: none;	
+}
+
+#menu ol li ol li a:hover {
+	color: #025e70;
+/* 	font-weight: bold; */
+}
+
+
+/**
+ * Image menu items - all languages
+ */
+#menu ol li a
+{
+	color: #fff; 
+	height: 0;
+	padding: 53px 0 0 0;
+	background-image: url(../images/dropdown/menu-generic.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-decoration: none;  
+	cursor: pointer;
+}
+
+#menu ol li:hover a,
+#menu ol li.hover a,
+#menu ol li.selected a
+{
+	background-position: center -53px;
+	cursor: pointer;
+}
+
+#menu ol li:hover ol,
+#menu ol li.hover ol {
+	display: block;
+}
+
+
+/* About the Job & Islands*/
+#menu ol li#menu-item-about-the-job a,
+#menu ol li#menu-item-about-the-islands a
+{
+	background-image: url(../images/dropdown/menu-dropdown.png);
+}
+#menu ol li#menu-item-about-the-job ol li a,
+#menu ol li#menu-item-about-the-islands ol li a
+{
+	background:url(../images/dropdown/dd-separator.gif) -1px 0 no-repeat;	
+}
+
+
+
+
+/**
+ * Image menu items - English only
+ */
+
+#menu.language-en ol li a
+{
+	height: 0;
+	padding: 53px 0 0 0;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#menu.language-en ol li:hover a,
+#menu.language-en ol li.hover a,
+#menu.language-en ol li.selected a
+{
+	background-position: center -53px;
+	cursor: pointer;
+}
+
+/* About the Job */
+#menu.language-en ol li#menu-item-about-the-job a
+{
+	background-image: url(../images/dropdown/menu-application.png);
+}
+#menu.language-en ol li#menu-item-about-the-job ol li a
+{
+	background:url(../images/dropdown/dd-separator.gif) -1px 0 no-repeat;	
+}
+
+/* Apply Now */
+#menu.language-en ol li#menu-item-apply-now a
+{
+	background-image: url(../images/dropdown/menu-referrals.png);
+}
+#menu.language-en ol li#menu-item-apply-now ol li a
+{
+	background:url(../images/dropdown/dd-separator.gif) -1px 0 no-repeat;	
+}
+
+/* News */
+#menu.language-en ol li#menu-item-news a
+{
+	background-image: url(../images/dropdown/menu-vote4me.png);
+}
+#menu.language-en ol li#menu-item-news ol li a
+{
+	background:url(../images/dropdown/dd-separator.gif) -1px 0 no-repeat;	
+}
+
+/* About the Islands */
+#menu.language-en ol li#menu-item-about-the-islands a
+{
+	background-image: url(../images/dropdown/menu-moreaboutme.png);
+}
+#menu.language-en ol li#menu-item-about-the-islands ol li a
+{
+	background:url(../images/dropdown/dd-separator.gif) -1px 0 no-repeat;	
+}

@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+/**
+ * FONTS
+ */
+
+/* Base font*/
+body {
+	/* Reset all text to base of 10px */
+	font: 0.6251em/1.4 arial, helvetica, sans-serif;
+}
+#content {
+	font-size: 1.3em;
+	color: #687178;
+}
+p, ol, ul, dl {
+	margin-bottom: 1em;
+}
+#content {
+/* 13pt - minimum size for government websites */
+	font-size: 1.3em;
+	color: #687178;
+}
+p, li, dt, dd {
+	font-size: inherit;	
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0.5em;
+	color: #09b7db;
+}
+h1 {
+	font-size: 2.2em;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+	letter-spacing: -0.03em;
+}
+#content h1 {
+	font-size: 1.69em;
+}
+#subscriptionsContainer h1 {
+	float: left;
+}
+h2 {
+	font-size: 1.7em;
+}
+#content h2 {
+	font-size: 1.31em;
+}
+h3 {
+	font-size: 1.5em;
+	color: #687178;
+}
+#content h3 {
+	font-size: 1.15em;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #2a72ae;
+}
+a:hover, a:active {
+	text-decoration: underline;
+	color: #045699;
+}
+h1 a:link, h2 a:link, h3 a:link {
+	color: #09b7db;
+}
+dt {
+	color: #30b3ce;
+}
+dd {
+	color: #2a72ae;
+}
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+a.externalLink {
+	color: #95a1ab;
+	font-size: 0.8em;
+}
+
+/**
+ * Form elements
+ */
+
+button {
+	font-size: 1.3em;	
+}
+p button {
+	font-size: 1em;
+}
+legend {
+	display: none;
+}
+input, label {
+	display: block;
+}
+
+
+
+
+/**
+ * Interface Elements
+ */
+
+.hidden {
+	display: none;
+} 
+#breadcrumb {
+	overflow: visible;
+	width: 710px;
+	margin-bottom: 1.8em;
+}
+#breadcrumb ul {
+	overflow: hidden;
+	margin: 0.5em 0 0 0;
+	float: left;
+}
+#breadcrumb li {
+	float: left;
+	margin-left: 20px;
+	padding-left: 8px;
+	background: transparent url(../images/content/arrow-right-small.png) 0 55% no-repeat;
+	font-size: 1.1em;
+}
+
